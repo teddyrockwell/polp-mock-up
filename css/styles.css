@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu&display=swap");
+body {
+  font-family: "Montserrat";
+}
+#title {
+  background: #ffac33;
+  color: #fff;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+h1 {
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+/* navigator bar */
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+.navbar-brand {
+  font-family: "ubuntu";
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 400;
+}
+
+/* download buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* title image */
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+}
+/* had to add title image amend in order to get phone to go where it was supposed to go */
+.title-image-amend {
+  position: relative;
+}
+
+.feature-icon {
+  color: #ffac33;
+  margin: 0 0 1rem 0;
+}
+
+.feature-icon:hover {
+  color: #1ed660;
+}
+
+/* features section */
+#features {
+  padding: 7% 15%;
+  background: white;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* testimonial section */
+
+#testimonials {
+  text-align: center;
+  background: gray;
+  color: #fff;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+.testimonial-image {
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* press */
+
+/* #press {
+  background: gray;
+  text-align: center;
+  padding: 0 0 3% 0;
+} */
+#press {
+  display: none;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* carousel  */
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* pricing section */
+
+#pricing {
+  padding: 100px; /*padding helps with spacing, even on mobile */
+}
+
+.pricing-column {
+  padding: 3% 2%;
+  text-align: center;
+}
+
+/* media query */
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* last challenge  */
+#cta {
+  background: #ffac33;
+  color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.cta-heading {
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+/* footer  */
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+.social-icon:hover {
+  color: #ffac33;
+}
+
+/* #dog {
+  display: none;
+} */
+
+.top-message {
+  text-align: center;
+  color: black;
+}
+
+.top-message-h3 {
+  color: white;
+}
